@@ -1,0 +1,6 @@
+codeflash_start_address = 00000000
+codeflash_end_address = 0001FFFF
+userboot_start_address = 00020000
+userboot_end_address = 00027FFF
+dataflash_start_address = FF000000
+dataflash_end_address = FF00FFFF

@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-void write_data(FILE*, unsigned int , unsigned int);
+void write_data(FILE*, unsigned int, unsigned int);
+void check_sum_calc(unsigned char*, unsigned char, unsigned char*);
 
 #endif // MAIN_H

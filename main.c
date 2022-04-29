@@ -31,6 +31,7 @@ int main(){
 	write_data(fp_w, codeFlashFirstAddress, codeFlashLastAddress);
 	write_data(fp_w, userBootFirstAddress, userBootLastAddress);
 	write_data(fp_w, dataFlashFirstAddress, dataFlashLastAddress);
+	fprintf(fp_w, "S9030000FC\n");
 	fclose(fp_w);
 
 	return 0;

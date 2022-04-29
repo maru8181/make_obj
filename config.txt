@@ -1,6 +1,6 @@
 codeflash_start_address = 00000000
-codeflash_end_address = 0001FFFF
-userboot_start_address = 00020000
-userboot_end_address = 00027FFF
+codeflash_last_address = 0000FFFF
+userboot_start_address = 00000000
+userboot_last_address = 00000000
 dataflash_start_address = FF000000
-dataflash_end_address = FF00FFFF
+dataflash_last_address = FF00FFFF

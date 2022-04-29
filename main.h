@@ -6,4 +6,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+void write_data(FILE*, unsigned int , unsigned int);
+
 #endif // MAIN_H

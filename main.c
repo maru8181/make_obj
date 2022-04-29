@@ -5,7 +5,7 @@ int main(){
 	static FILE *fp_w = NULL;
 	static unsigned int addressData[6];
 	static unsigned char key[30];
-	static char i;
+	static char i = 0;
 	static unsigned int codeFlashFirstAddress;
 	static unsigned int codeFlashLastAddress;
 	static unsigned int userBootFirstAddress;
@@ -14,7 +14,6 @@ int main(){
 	static unsigned int dataFlashLastAddress;
 
 	fp_r = fopen("config.txt", "r");
-	i = 0;
 	while (fscanf(fp_r, "%s = %x", key, &addressData[i]) != EOF) {
 		i++;
 	}
